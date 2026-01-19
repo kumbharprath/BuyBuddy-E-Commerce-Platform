@@ -1,0 +1,10 @@
+package com.example.buy_buddy_order_service.dto;
+
+import lombok.Data;
+
+@Data
+public class CustomerDTO {
+    private Long id;
+    private String name;
+    private String email;
+}
